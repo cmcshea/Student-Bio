@@ -1,7 +1,9 @@
 body {
     background-color: #efeee7;
-    font: "Georgia" ,Times New Roman,Times,serif;
+    font: Georgia, "Times New Roman", Times, serif;
     color: #333333;
+    font-size: 18px;
+    line-height: 150%;
     margin: 0;
     padding: 0;
 }
@@ -16,4 +18,28 @@ h1 {
     font-size: 28px;
     margin: -20;
     padding: -100;
+    
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
 }

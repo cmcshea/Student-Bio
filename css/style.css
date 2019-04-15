@@ -1,11 +1,11 @@
 body {
-    background-color: #efeee7;
-    font: Georgia, "Times New Roman", Times, serif;
-    color: #333333;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 150%;
-    margin: 0;
-    padding: 0;
+    color: #333;
+    background: #efeee7;
 }
 
 header {
@@ -13,11 +13,11 @@ header {
 }
 
 h1 {
-    color: #eee;
-    font-size: 28px;
+    padding: 20px 0;
     margin: 0;
-    padding: 20 px 0;
     margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 #main-bio,
-#contact-info
+#contact-info,
 #bio-image {
     float: left;
 }
